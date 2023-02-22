@@ -1,0 +1,4 @@
+
+Exercicio de fixação - trabalhando com função simples:
+Relógio analógico com atualização real time usando variavel tipo data.
+Dados de hora, minuto e segundo são puxados do navegador.
