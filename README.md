@@ -1,7 +1,8 @@
 # estudos
 
-códigos de exercicios de cursos:
-> relógio analógico - javascript básico;
-> teste de digitação - javascript básico;
-> imagens responsivas - javascript básico;
-> 
+<h3> códigos de exercicios de cursos: </h3>
+<ul> 
+  <li> relógio analógico - javascript básico; </li>
+  <li> teste de digitação - javascript básico; </li>
+  <li> imagens responsivas - javascript básico; </li>
+</ul>
