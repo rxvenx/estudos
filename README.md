@@ -5,6 +5,10 @@
   <li> [x] relógio analógico - javascript básico; </li>
   <li> [ ] teste de digitação - javascript básico; </li>
   <li> [ ] imagens responsivas - javascript básico; </li>  
-  <li> [ ] *titulo - *tipo nivel; </li>
+  <li> [ ] </li>
+  <li> [ ] </li>
+  <li> [ ] </li>
+  <li> [ ] </li>
+  <li> [ ] </li>
   
 </ul>
