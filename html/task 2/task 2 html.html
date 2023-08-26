@@ -1,49 +1,42 @@
 <html>
     <body>
-        <head>
-            <link rel="stylesheet" type="text/css" href="styles-task-1.css" media="screen" />
-        </head>
-        <title> FIRST PAGE </title>
-        <h1> Task #1 </h1>
-        <h2> Create a Basic Web Page. </h2>
-        <p> Create a simple web page that includes:
-            <ol> 
-                <li>A header with the page title.</li>
-                <li>An introductory paragraph.</li>
-                <li>An unordered or ordered list.</li>
-                <li>At least one image with a description.</li>
-                <li>A link to another page (can be fictional).</li>
-            </ol>
-        </p>
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles-task-2.css" media="screen" />
+        
+
+        <title>Contact Form</title>
+    </head>
+    <h1> Task #2 </h1>
+    <h2> Create a Basic Contact Form. </h2>
+    <p> Design a contact form that includes fields like name, email address, subject, and message. <br> Use HTML form tags like form, input, textarea, etc. <br> Make sure to add semantic tags for clear structure.
+    </p>
 <hr> 
-        <h3> THIS IS A HEADER </h3>
-        <p> this is a introductory paragraph. this is a introductory paragraph. this is a introductory paragraph. this is a introductory paragraph. this is a introductory paragraph. this is a introductory paragraph. this is a introductory paragraph. this is a introductory paragraph. this is a introductory paragraph. this is a introductory paragraph. this is a introductory paragraph. this is a introductory paragraph. this is a introductory paragraph. this is a introductory paragraph. this is a introductory paragraph. this is a introductory paragraph. this is a introductory paragraph. this is a introductory paragraph. this is a introductory paragraph.  </p>
+    <h1>Contact Us</h1>
+    <form action="/submit" method="post">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+        </div>
+        <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
 
-        <ol> 
-            <li> this is an item of an ordered list. </li>
-            <li> this is an item of an ordered list. </li>
-            <li> this is an item of an ordered list. </li>
-            <li> this is an item of an ordered list. </li>
-
-        </ol>
-
-        <ul>
-            <li> this is an item of an unordered list. </li>
-            <li> this is an item of an unordered list. </li>
-            <li> this is an item of an unordered list. </li>
-            <li> this is an item of an unordered list. </li>
-
-        </ul>
-
-        <br>
-
-        <img src="https://img.freepik.com/fotos-gratis/mulher-com-tiro-medio-usando-oculos-vr_23-2150394449.jpg?t=st=1693086840~exp=1693087440~hmac=3a0d9b4c50ff4ab8e513f8c3ccd850686a04635d14bd426e54bd631fcb5d653b" alt="">
-        <p> this is an image with a description. </p>
-
-        <img src="https://img.freepik.com/vetores-gratis/fundo-de-colagem-desenhado-a-mao_23-2149590537.jpg?w=740&t=st=1693087059~exp=1693087659~hmac=0cfb9bec60058a74bdc56340a541a384253f07554fd46e65ee5e19ed5d94f01a" alt="">
-        <p> this is an image with a description. </p>
-
-        <a href="https://www.google.com.br/?hl=pt-BR"> this is a link to another page. </a>
-
+<hr> 
+        
     </body>
 </html>
